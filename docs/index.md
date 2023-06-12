@@ -23,7 +23,7 @@ Before running the Superset-Keycloak setup, ensure that you have the following i
 
 ## Access Superset:
 
-- Open your browser and navigate to [http://localhost:8088](http://localhost:8088) to access Superset.
+- Open your browser and navigate to localhost:8088 to access Superset.
 - You will be redirected to the Keycloak login page, where you can authenticate with your Keycloak credentials.
 - After successful authentication, you will be redirected back to Superset.
 
