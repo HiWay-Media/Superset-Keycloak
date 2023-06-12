@@ -1,0 +1,24 @@
+{
+    "name": "superset-keycloak-gh",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+        "superset",
+        "keycloak"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "devDependencies": {
+        "@types/node": "^20.1.4",
+        "@typicode/eslint-config": "^1.1.0",
+        "typescript": "^5.0.4",
+        "vitepress": "^1.0.0-alpha.75"
+    },
+    "engines": {
+      "node": ">=16"
+    }
+}
