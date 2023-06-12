@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     outline: [2, 3],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/HiWay-Media/superset-keycloak' },
+      { icon: 'github', link: 'https://github.com/HiWay-Media/Superset-Keycloak' },
     ],
     sidebar: [
       { text: 'Introduction', link: '/' },
