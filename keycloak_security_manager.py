@@ -34,6 +34,8 @@ class AuthOIDCView(AuthOIDView):
                 roles += [default_role, ]
                 user = sm.add_user(info.get('preferred_username'), info.get('given_name', ''), info.get('family_name', ''),
                                    info.get('email'), [sm.find_role(role) for role in roles])
+            # need to check if is it correct
+            user.is_active = True
             #
             login_user(user, remember=False)
             return redirect(self.appbuilder.get_url_for_index)
