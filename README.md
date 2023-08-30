@@ -21,7 +21,7 @@ Before running the Superset-Keycloak setup, ensure that you have the following i
 - Docker
 - Keycloak
 
-## Access Superset:
+## Access Superset:
 
 - Open your browser and navigate to http://localhost:8088 to access Superset.
 - You will be redirected to the Keycloak login page, where you can authenticate with your Keycloak credentials.
@@ -29,10 +29,10 @@ Before running the Superset-Keycloak setup, ensure that you have the following i
 
 For more detailed instructions and advanced configurations, please refer to the documentation.
 
-## Contributions
+## Contributions
 Contributions to the Superset-Keycloak repository are welcome! If you find any issues, have suggestions for improvements, or want to contribute enhancements, please open an issue or submit a pull request on the GitHub repository.
 
 Please follow the existing code style and provide clear descriptions and documentation for any changes or additions.
 
-## License
+## License
 Superset-Keycloak is licensed under the MIT License.
