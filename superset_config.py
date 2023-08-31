@@ -29,7 +29,7 @@ DATABASE_HOST = get_env_variable("DB_HOST")
 DATABASE_PORT = get_env_variable("DB_PORT")
 DATABASE_DB = get_env_variable("DB_NAME")
 #
-SQLALCHEMY_DATABASE_URI = "%s://%s:%s@%s:%s/%s?charset=utf8mb4" % (
+SQLALCHEMY_DATABASE_URI = "%s://%s:%s@%s:%s/%s?charset=utf-8" % (
     DATABASE_DIALECT,
     DATABASE_USER,
     DATABASE_PASSWORD,
