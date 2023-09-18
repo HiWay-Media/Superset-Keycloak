@@ -38,6 +38,8 @@ SQLALCHEMY_DATABASE_URI = "%s://%s:%s@%s:%s/%s?charset=utf8" % (
     DATABASE_DB,
 )
 #
+SECRET_KEY = get_env_variable("SECRET_KEY", 'secret_key')
+#
 #---------------------------KEYCLOACK ----------------------------
 # See: https://github.com/apache/superset/discussions/13915
 # See: https://stackoverflow.com/questions/54010314/using-keycloakopenid-connect-with-apache-superset/54024394#54024394
@@ -48,7 +50,6 @@ OIDC_ENABLE = get_env_variable("OIDC_ENABLE", 'False')
 #
 if OIDC_ENABLE == 'True':
     AUTH_TYPE                       = AUTH_OID
-    SECRET_KEY                      = get_env_variable("SECRET_KEY", 'secret_key')
     OIDC_CLIENT_SECRETS             = get_env_variable("OIDC_CLIENT_SECRETS", '/app/pythonpath/client_secret.json')
     OIDC_ID_TOKEN_COOKIE_SECURE     = False
     OIDC_REQUIRE_VERIFIED_EMAIL     = False
