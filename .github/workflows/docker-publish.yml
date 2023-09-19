@@ -2,9 +2,9 @@ name: Docker SuperSet Keycloak
 #
 on:
   push:
-    branches: 
-      - master
-      - main
+    #branches: 
+    #  - master
+    #  - main
     tags:
       - v*
 #
